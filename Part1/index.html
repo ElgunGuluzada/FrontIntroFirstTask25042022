@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Intro</title>
+</head>
+<style>
+    #newForm {
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+</style>
+
+<body>
+    <form action="https://httpbin.org/post&quot" id="newForm">
+        <h2>Register</h2>
+        <label style="font-weight:900;" for="fname">First Name</label> <br>
+        <input style="border:  solid 2px; width: 240px; height: 35px;" required name="fname" id="fname" type="text">
+        <br> <br>
+        <label style="font-weight:900;" for="lname">Last Name</label> <br>
+        <input style="border:  solid 2px; width: 240px; height: 35px;" required name="lname" id="lname" type="text">
+        <br> <br>
+        <label style="font-weight:900;" for="email">Email</label> <br>
+        <input style="border:  solid 2px; width: 240px; height: 35px;" required name="email" id="email" type="email">
+        <br> <br>
+        <label style="font-weight:900;" for="password">Password</label> <br>
+        <input style="border:  solid 2px; width: 240px; height: 35px;" required name="password" id="password"
+            placeholder="   Must be at least 8 characters" type="password" minlength="8"> <br> <br>
+        <input style=" width: 10em; height: 3.5em;  color: white;
+        border: 2px solid rgba(32,105,189,255);
+        background: rgba(32,105,189,255);
+        border-radius: 40px;" id="register" class="reg" for="register" type="submit" value="Register"></input>
+    </form>
+</body>
+
+</html>
